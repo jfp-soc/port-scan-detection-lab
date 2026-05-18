@@ -1,5 +1,3 @@
-# port-scan-detection-lab
-
 # Port Scan Detection Engineering Lab
 
 ## Objective
