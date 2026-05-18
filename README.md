@@ -60,3 +60,14 @@ tcpdump -i eth0
 ## Conclusion
 
 This lab demonstrates how reconnaissance activity appears at the network level and provides baseline understanding for building detection rules in a SOC environment.
+
+## Evidence
+
+### Service Scan
+![service scan](screenshots/scan1.png)
+
+### Full Port Scan
+![full scan](screenshots/fullscan.png)
+
+### Packet Capture
+![tcpdump](screenshots/tcpdump.png)
