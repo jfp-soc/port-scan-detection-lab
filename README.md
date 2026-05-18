@@ -67,7 +67,7 @@ This lab demonstrates how reconnaissance activity appears at the network level a
 ![service scan](screenshots/scan1.png)
 
 ### Full Port Scan
-![full scan](screenshots/fullscan.png)
+![full scan](screenshots/scan2.png)
 
 ### Packet Capture
-![tcpdump](screenshots/tcpdump.png)
+![tcpdump](screenshots/scan3.png)
