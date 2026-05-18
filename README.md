@@ -69,3 +69,23 @@ This lab demonstrates how reconnaissance activity appears at the network level a
 
 ### Packet Capture
 ![tcpdump](screenshots/scan3.png)
+
+
+## Detection Summary
+
+This lab demonstrates how port scanning activity appears at the network level.
+
+Key observable indicators:
+- Multiple connection attempts across sequential ports
+- SYN packets generated at high frequency
+- Increase in network traffic volume during reconnaissance
+- Presence of open ports identified via service enumeration
+
+This type of activity is commonly associated with early-stage reconnaissance in attack chains and is typically detected using network intrusion detection systems or SIEM alerting rules.
+
+## Detection Opportunities
+
+- Monitor for high-rate SYN packets across multiple ports
+- Alert on sequential port scanning behaviour
+- Baseline normal traffic and flag deviations
+- Correlate scanning activity with source IP reputation
